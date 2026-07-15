@@ -21,7 +21,7 @@ export const router = createBrowserRouter([
       { path: "runs/:runId", element: <RunDetailPage /> },
       { path: "batches", element: <BatchListPage /> },
       { path: "batches/new", element: <NewBatchPage /> },
-      { path: "batches/:batchId", element: <BatchDetailPage /> },
+      { path: "batches/:batch_id", element: <BatchDetailPage /> },
       { path: "templates", element: <TemplatesPage /> },
       { path: "settings", element: <SettingsPage /> },
       { path: "prompts", element: <PromptsPage /> },

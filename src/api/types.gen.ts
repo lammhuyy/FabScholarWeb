@@ -940,7 +940,9 @@ export interface operations {
     };
     download_artifact_api_v1_runs__run_id__artifacts__name__get: {
         parameters: {
-            query?: never;
+            query?: {
+                download?: boolean;
+            };
             header?: never;
             path: {
                 run_id: string;
